@@ -1,4 +1,8 @@
-Treat a "flat" distance matrix kind of like a Numpy array
+# distance_matrix
+
+Treat a "flat" distance matrix (kind of) like a Numpy array.
+
+## Usage
 
 ```python
 import numpy as np
@@ -25,3 +29,15 @@ print(dm.shape)
 print(dm.size)
 assert dm.T.values == dm.T
 ```
+
+## Development
+
+### Testing
+
+```bash
+pytest tests
+```
+
+### Contributor licensing
+
+If you don't include a license with a contribution, I will assume it's GPL v3.
